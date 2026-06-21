@@ -77,7 +77,7 @@ nav a:hover,nav a:focus{background:var(--glass);outline:none}
 .hero h1{margin:0;font-size:clamp(1.6rem,6vw,3rem);line-height:1.03}
 .hero p{margin:.75rem 0 0;color:var(--muted);max-width:56ch}
 
-.hero-media { display:flex; align-items:center; justify-content:center; gap:1rem; }
+.hero-media { display:flex; flex-direction:column; align-items:stretch; justify-content:center; gap:1rem; }
 
 .cta-row{margin-top:1.25rem;display:flex;gap:.75rem;flex-wrap:wrap}
 .btn{display:inline-flex;align-items:center;gap:.6rem;padding:.6rem .9rem;border-radius:10px;border:0;background:var(--accent);color:#fff;font-weight:600;cursor:pointer}
@@ -200,8 +200,6 @@ footer{padding:1.25rem 0;text-align:center;color:var(--muted);border-top:1px sol
           <div class="hero-visual" role="img" aria-label="Illustration of a developer at a desk">
             
             <picture>
-              <source srcset="" media="(min-width:1024px)" type="image/webp">
-              <source srcset="assets/hero-medium.webp" media="(min-width:640px)" type="image/webp">
               <img src="halimu.jpeg" alt="my picture" loading="lazy">
             </picture>
           </div>
